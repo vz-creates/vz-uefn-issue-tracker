@@ -4,7 +4,7 @@ TBD
 
 ## Reports
 
-| Title | Ticket | Version | Priority | Status | Tags |
+| Title | Ticket(s) | Version | Priority | Status | Tags |
 | :-- | :-: | :-: | :-: | :-: | :-: |
 | - | N/A | N/A | N/A | N/A | |
 | - | N/A | N/A | N/A | N/A | |
@@ -14,9 +14,19 @@ TBD
 | - | N/A | N/A | N/A | N/A | |
 | - | N/A | N/A | N/A | N/A | |
 | - | N/A | N/A | N/A | N/A | |
-| - | N/A | N/A | N/A | N/A | |
-| - | N/A | N/A | N/A | N/A | |
-| [Editor crashing verse snippet #3 (Unhandled Exception: 0x80000003)](https://forums.unrealengine.com/t/editor-crashing-verse-snippet-3-unhandled-exception-0x80000003/1838711) | FORT-1039670 | N/A | N/A | N/A | `verse` `tooling` |
+| 🔒 [Fortnite servers report unreliable / unstable / highly fluctuating translation via `GetTransform` on `fort_character` and `fort_vehicle`](https://forums.unrealengine.com/t/extremly-critical-bug-fortnite-servers-report-unreliable-unstable-highly-fluctuating-translation-via-gettransform-on-fort-character-and-fort-vehicle/2285085) | FORT-846647 | N/A | Extreme | N/A | `device` `stability` |
+| [`fort_character` and `fort_vehicle` periodically report dirty transform values while standing still](https://forums.unrealengine.com/t/critical-bug-fort-character-and-fort-vehicle-periodically-report-dirty-transform-values-while-standing-still/2012908) | FORT-788882, FORT-823943 | N/A | Critical | N/A | `device` `stability` |
+| [Unable to hide vehicle HUD](https://forums.unrealengine.com/t/important-unable-to-hide-vehicle-hud/2046207) | FORT-797695 | N/A | Major | Fixed | `ui` |
+| [V33.00 rendered RR Car Spawner completely unusable](https://forums.unrealengine.com/t/critical-bug-v33-00-rendered-rr-car-spawner-completely-unusable/2161260) | FORT-809568, FORT-830152 | v33.00 | Critical | Fixed | `device` `vehicle` |
+| [No way to obtain `fort_vehicle` from a `vehicle_spawner_device` at a later point of time](https://forums.unrealengine.com/t/no-way-to-obtain-fort-vehicle-from-a-vehicle-spawner-device-at-a-later-point-of-time/2046229/7) | FORT-903491 | N/A | Major | Won't Fix | `verse` `api` |
+| [`property_animation_controller`](https://forums.unrealengine.com/t/scene-graph-feature-request-property-animation-controller/1915046) | FORT-761952 | N/A | Major | Closed | `verse` `api` `scene graph` |
+| [Scene Graph `FindComponents` method is bugged](https://forums.unrealengine.com/t/scene-graph-findcomponents-method-is-bugged/1902153) | FORT-757703 | N/A | Major | Fixed | `verse` `api` |
+| [`material_block`](https://forums.unrealengine.com/t/feature-request-material-block/1904335) | FORT-758592 | N/A | Major | Fixed | `verse` `api` |
+| [Scene Graph custom verse components can be ignored](https://forums.unrealengine.com/t/scene-graph-custom-verse-components-can-be-ignored/1902050) | N/A | N/A | Major | Resolved | `verse` `scene graph` |
+| [Scene Graph `mesh_component.Material` oversights](https://forums.unrealengine.com/t/scene-graph-mesh-component-material-oversights/1901961) | N/A | N/A | Major | Resolved | `verse` `scene graph` |
+| [Parametric interface does not compile and yields unrelated diagnostics when used by the client module](https://forums.unrealengine.com/t/parametric-interface-does-not-compile-and-yields-unrelated-diagnostics-when-used-by-the-client-module/1839488) | FORT-1039671 | N/A | Major | N/A | `verse` |
+| [Editor crashing verse snippet #4 (EXCEPTION_ACCESS_VIOLATION reading address 0x0000000000000000)](https://forums.unrealengine.com/t/editor-crashing-verse-snippet-4-exception-access-violation-reading-address-0x0000000000000000/1838773) | N/A | N/A | Major | N/A | `verse` `tooling` |
+| [Editor crashing verse snippet #3 (Unhandled Exception: 0x80000003)](https://forums.unrealengine.com/t/editor-crashing-verse-snippet-3-unhandled-exception-0x80000003/1838711) | FORT-1039670 | N/A | Major | N/A | `verse` `tooling` |
 | [Another verse snippet causing the editor to crash (EXCEPTION_ACCESS_VIOLATION)](https://forums.unrealengine.com/t/another-verse-snippet-causing-the-editor-to-crash-exception-access-violation/1838668) | FORT-741838 | N/A |Major | Fixed | `verse` `tooling` |
 | [Verse causes the editor to crash (EXCEPTION_ACCESS_VIOLATION)](https://forums.unrealengine.com/t/vese-causes-the-editor-to-crash-exception-access-violation/1838559) | FORT-741694 | v29.40 | Major | Fixed | `verse` `tooling` |
 | [Critical verse bug crashing the FN client](https://forums.unrealengine.com/t/critical-verse-bug-crashing-the-fn-client/1838407) | FORT-741589 | N/A | Critical | Backlogged | `verse` `client` |
